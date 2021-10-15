@@ -1,0 +1,295 @@
+/* Titulares */
+@import url('https://fonts.googleapis.com/css2?family=Share:wght@400;700&display=swap');
+/* primer span */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital@1&display=swap');
+/* Letra de sección */
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+
+/* General */
+
+*{
+    padding:0%;
+    margin:0%;
+}
+
+body{
+    padding:0%;
+    margin:2%;
+    background-color: #E1E1DD;
+    
+}
+
+h1{
+    display:none;
+}
+
+h2{
+    font-family: 'Share', cursive;
+}
+
+h4{
+    font-family: 'Share', cursive;
+}
+
+.promo{
+    font-family: 'Libre Caslon Text', serif;
+}
+
+select{
+    font-size: 0.95em;
+    border: none;
+    background-color:rgba(209, 203, 203, 0.226); 
+    
+}
+
+img{
+    filter: saturate(0%) sepia(30%);
+}
+
+
+/* Header */
+.logo{
+    display:flex;
+    /* justify-content: center; */
+    max-width: 100%;
+    margin:auto;
+}
+
+/* Nav */
+
+nav{
+    margin: 2%;
+}
+
+ul{
+    font-size: 1.3em;
+    background-color: rgba(175, 172, 172, 0.301);
+    text-align: center;
+}
+
+.navList{
+    display:inline;
+    padding: 0% 3%;
+    margin: 1% 0%;
+    
+}
+
+.navList:hover{
+    background-color: rgb(148, 147, 146);
+}
+
+/* sección horizontal inicial */
+
+div.promoPrecio{
+    display:flex;
+    justify-content: space-between;
+    font-size: 0.7em;
+    border-bottom: 2px solid black;
+    /* No puedo lograr que suba el borde al limite del contenido de este div. */
+    max-height: 100px;
+    padding: 0 1%;
+    margin: 0 2%;
+}
+
+.fondoNegro{
+    max-width: 35%;
+    
+}
+.fondoNegro img{
+    max-width: 100%;
+    max-height: 100%;
+    padding:1%;
+    margin: 1%;
+}
+
+.solPrecio{
+    display:flex;
+    justify-content: flex-end;
+    width: 25%;
+    
+}
+
+.solPrecio img{
+    max-height: 100%;
+}
+
+.cortas{
+    
+    width:10%;
+    
+}
+
+
+/* Principal */
+
+.principal{
+    display:flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.sectionDaily{
+    color:black;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 6em;
+    padding: 0%;
+    margin: 4%;
+    display: inline;
+    text-align: right;
+    float:right;
+}
+
+.tituloSection{
+    display: block;
+    
+}
+
+p {
+    
+    text-align: justify;
+    margin:1%;
+    
+}
+
+/* article{
+    display:block;
+} */
+
+
+
+/* Columna izquierda */
+.colIzquierda{
+    width:35%;
+    padding: 1%;;
+}
+
+.tituloVertical{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg); 
+    font-size: 2em;
+    float:left;  
+}
+
+.imgC {
+    float:left;
+    margin:1%;
+    max-width: 40%;
+    max-height: 174px;
+}
+
+.tituloSecundario{
+    color:grey;
+    font-size:1.5em;
+    text-align: left;
+    display:inline;
+}
+
+.verticalNoticia{
+    text-align: left;
+    display:inline;
+}
+
+.ad img{
+    max-width: 100%;
+}
+
+
+/* Columna Main */
+
+.colMain{
+    max-width: 60%;
+    padding: 1%;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.exclusiveMasTituloHorizontal{
+    display:flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    /* justify-content: right;  */
+    margin:1%;
+    max-width: 100%;
+    justify-content: space-between;
+    /* float:left; */
+}
+
+.imgB1{
+    max-width: 380px;
+    max-width:100%;
+    /* clear:right; */
+    /* float:right; */
+}
+.imgB2{
+    max-width: 350px;
+    /* max-width:50%; */
+}
+
+.tituloVerticalB{
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 2em;
+    /* text-align: end; */
+    text-align: end;
+    /* float:right; */
+    
+}
+
+.tituloHorizontalB{
+    /* clear:both;
+    float: left; */
+    text-align: left;
+    font-size: 2em;
+}
+
+
+.seccionBincompleta{
+    /* float:right; */
+    display:flex;
+    justify-content: left;
+    flex-direction: column;
+    
+
+    /* flex-wrap: wrap; */
+    
+}
+
+.articleB{
+    /* clear:both; */
+}
+
+.siriusMasTituloVertical{
+    display:flex;
+    justify-content: left;
+
+}
+
+.seccionB{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.sectionDailyB{
+    float:left;
+    color:black;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 6em;
+    padding: 0%;
+    margin: 2%;
+    display: inline;
+    text-align: right;
+    
+}
+
+/* Articulo D */
+
+
+
+
+
+
+
